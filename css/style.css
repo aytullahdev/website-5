@@ -1,0 +1,43 @@
+@import url('../webbox/css/main.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&display=swap');
+.sec01{
+    position: relative;
+    background-image: url('../img/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.nav-link{
+    color:white!important;
+    font-size: 15px;
+    margin-right: 12px;
+}
+.nav-link:hover{
+    color:orangered!important;
+}
+.accordion-button{
+    background-color: #f7f7f7!important;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.frm{
+    background:linear-gradient(
+        135deg,
+        rgba(0, 136, 232, 1) 0%,
+        rgba(0, 182, 198, 1) 0%,
+        rgba(0, 136, 232, 1) 100%
+      ) ;
+}
+.sicon>li{
+    margin-right: 20px;
+
+}
+.sicon>li>i{
+   font-size: 25px;
+   padding: 5px;
+   color: #fff;
+   background-color: #00b4c6;
+    cursor: pointer;
+}
